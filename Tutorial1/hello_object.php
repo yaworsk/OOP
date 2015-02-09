@@ -10,7 +10,7 @@
     <?php
       require("HelloWorld.php");
 
-      $object = new HelloWorld();
+      $object = new HelloWorld("Hi Pete!");
 
       $object->sayHello();
 
